@@ -6,23 +6,23 @@ Resurces for MRI images processing and deep learning in 3D
 
 ## [nipy](https://nipy.org/)
 -a community of practice devoted to the use of the Python programming language in the analysis of neuroimaging data
-# Analysis Pipeline Management
+1. Analysis Pipeline Management
   - [nipype](https://github.com/nipy/nipype) - Provides a uniform interface to existing neuroimaging software.
-# Computational Anatomy
+2. Computational Anatomy
   - [dipy](https://github.com/dipy/dipy) - Focuses on diffusion magnetic resonance imaging (dMRI) analysis.
   - [mindboggle](https://github.com/nipy/mindboggle) - Improves the accuracy, precision, and consistency of labeling & morphometry of brain imaging data.
-# File I/O and Data Management
+3. File I/O and Data Management
   - [nibabel](https://github.com/nipy/nibabel) - Read / write common neuroimaging file formats.
-# Functional MRI
+4. Functional MRI
   - [Nipy](https://github.com/nipy) - Analysis of structural and functional neuroimaging data.
   - [Nitime](https://github.com/nipy/nitime) - Time-series analysis of neuroscience data.
   - [popeye](https://github.com/kdesimone/popeye) - Population receptive field estimation
-# Machine Learning
+5. Machine Learning
   -  [Nilearn](https://github.com/nilearn/nilearn) - Fast and easy statistical learning on neuroimaging data.
   -  [PyMVPA](https://github.com/PyMVPA/PyMVPA) - Eases statistical learning analyses of large neuroimaging datasets.
-# Human Electrophysiology
+6. Human Electrophysiology
   -  [MNE](https://github.com/mne-tools/mne-python) - Processes magnetoencephalography (MEG) and electroencephalography (EEG) data.
-# Data Visualisation
+7. Data Visualisation
   -  [niwidgets](https://github.com/nipy/niwidgets) - Provides interactive plots for volumetric images.
 
 ## [TorchIO](https://github.com/fepegar/torchio)
