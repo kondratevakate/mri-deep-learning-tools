@@ -1,9 +1,22 @@
 # mri-deep-learning-tools
 Resurces for MRI images processing and deep learning in 3D
 
+## [DeepMedic](https://github.com/deepmedic/deepmedic)
+Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans
+Project aims to offer easy access to Deep Learning for segmentation of structures of interest in biomedical 3D scans. It is a system that allows the easy creation of a 3D Convolutional Neural Network, which can be trained to detect and segment structures if corresponding ground truth labels are provided for training. The system processes NIFTI images, making its use straightforward for many biomedical tasks.
+
+## [Deep Cascade of Convolutional Neural Networks and Convolutioanl Recurrent Nerual Networks for MR Image Reconstruction](https://github.com/js3611/Deep-MRI-Reconstruction)
+Reconstruct MR images from its undersampled measurements using Deep Cascade of Convolutional Neural Networks (DC-CNN) and Convolutional Recurrent Neural Networks (CRNN-MRI). This repository contains the implementation of DC-CNN using Theano and Lasagne, and CRNN-MRI using PyTorch, along with simple demos. Note that the library requires the dev version of Lasagne and Theano, as well as pygpu backend for using CUFFT Library
+
 ## [DLTK](https://github.com/DLTK/DLTK)
 -Deep Learning Toolkit (DLTK) for Medical Imaging
 DLTK is a neural networks toolkit written in python, on top of TensorFlow. It is developed to enable fast prototyping with a low entry threshold and ensure reproducibility in image analysis applications, with a particular focus on medical imaging. Its goal is to provide the community with state of the art methods and models and to accelerate research in this exciting field.
+
+## [GANCS](https://github.com/gongenhao/GANCS)
+Compressed Sensing MRI based on Generative Adversarial Network
+
+## [Graph CNNs for population graphs: classification of the ABIDE dataset](https://github.com/parisots/population-gcn)
+code provides a python - Tensorflow implementation of graph convolutional networks (GCNs) for semi-supervised disease prediction using population graphs
 
 ## [MedicalTorch](https://github.com/perone/medicaltorch)
 -is an open-source framework for PyTorch, implementing an extensive set of loaders, pre-processors and datasets for medical imaging.
@@ -38,10 +51,19 @@ DLTK is a neural networks toolkit written in python, on top of TensorFlow. It is
 ## [Nobrainer](https://github.com/neuronets/nobrainer)
 -is a deep learning framework for 3D image processing. It implements several 3D convolutional models from recent literature, methods for loading and augmenting volumetric data that can be used with any TensorFlow or Keras model, losses and metrics for 3D data, and simple utilities for model training, evaluation, prediction, and transfer learning.
 
+## [SegNet](https://github.com/alexgkendall/caffe-segnet)
+ SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation Vijay Badrinarayanan, Alex Kendall and Roberto Cipolla, PAMI 2017 [http://arxiv.org/abs/1511.00561]
+ 
+## [TractSeg](https://github.com/MIC-DKFZ/TractSeg)
+-Tool for fast and accurate white matter bundle segmentation from Diffusion MRI. It can create bundle segmentations, segmentations of the endregions of bundles and Tract Orientation Maps (TOMs). Moreover, it can do tracking on the TOMs creating bundle-specific tractogram and do Tractometry analysis on those.
+
 ## [TorchIO](https://github.com/fepegar/torchio)
 -is a Python package containing a set of tools to efficiently read, preprocess, sample, augment, and write 3D medical images in deep learning applications written in PyTorch.
 
 [Pérez-García et al., 2020, TorchIO: a Python library for efficient loading, preprocessing, augmentation and patch-based sampling of medical images in deep learning.](https://arxiv.org/abs/2003.04696)
+
+## [VNet](https://github.com/faustomilletari/VNet)
+Medical image segmentation using caffe
 
 ## [3D-Convolutional-Network-for-Alzheimer's-Detection](https://github.com/RishalAggarwal/3D-Convnet-for-Alzheimer-s-Detection)
 This repository consists of an attempt to detect and diagnose Alzheimer's using 3D MRI T1 weighted scans from the ADNI database.It contains a data preprocessing pipeline to make the data suitable for feeding to a 3D Convnet or Voxnet followed by a Deep Neural Network definition and an exploration into all the utilities that could be required for such a task.
