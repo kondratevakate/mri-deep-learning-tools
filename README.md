@@ -2,7 +2,7 @@
 Resurces for MRI images processing and deep learning in 3D
 
 | Project Name | Stars | Description | Scenario |
-| ------- | ------ | ------ |
+| ------- | ------ | ------ | ------ |
 | [MONAI](https://github.com/Project-MONAI/MONAI) | 989 | Medical Open Network for AI <br> MONAI is a PyTorch-based, open-source framework for deep learning in healthcare imaging, part of PyTorch Ecosystem.| preprocessing, classification, segmentation |
 | [SegNet](https://github.com/alexgkendall/caffe-segnet) | 988 | SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation Vijay Badrinarayanan, Alex Kendall and Roberto Cipolla, PAMI 2017 [http://arxiv.org/abs/1511.00561] | segmentation |
 | [Medical Detection Toolkit](https://github.com/MIC-DKFZ/medicaldetectiontoolkit) | 755 | The Medical Detection Toolkit contains 2D + 3D implementations of prevalent object detectors such as Mask R-CNN, Retina Net, Retina U-Net, as well as a training and inference framework focused on dealing with medical images. | detection, segmentation |
