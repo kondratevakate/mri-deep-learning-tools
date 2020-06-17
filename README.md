@@ -1,7 +1,7 @@
 # mri-deep-learning-tools
 Open-source libraries for MRI images processing and deep learning:
 
-# Pytorch
+## Pytorch
 
 | Project Name | # stars | Description | Scenario |
 | ------- | ------ | ------ | ------ |
@@ -23,7 +23,7 @@ Open-source libraries for MRI images processing and deep learning:
 | [3D-UNet-PyTorch-Implementation](https://github.com/JielongZ/3D-UNet-PyTorch-Implementation) | 17 | -the implementation of 3D UNet Proposed by Özgün Çiçek et al.,<br>Preprint:[3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation.](https://arxiv.org/abs/1606.06650)| segmentation |
 
 
-# Tensorflow
+## Tensorflow
 | Project Name | # stars | description |
 | ------- | ------ | ------ |
 | [NiftyNet](https://github.com/NifTK/NiftyNet) | 1.2k | NiftyNet is a TensorFlow-based open-source convolutional neural networks (CNN) platform for research in medical image analysis and image-guided therapy. NiftyNet's modular structure is designed for sharing networks and pre-trained models.| classification, segmentation| 
