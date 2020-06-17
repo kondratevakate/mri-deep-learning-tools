@@ -24,8 +24,8 @@ Open-source libraries for MRI images processing and deep learning:
 
 
 ## Tensorflow
-| Project Name | # stars | description |
-| ------- | ------ | ------ |
+| Project Name | # stars | Description | Scenario |
+| ------- | ------ | ------ | ------ |
 | [NiftyNet](https://github.com/NifTK/NiftyNet) | 1.2k | NiftyNet is a TensorFlow-based open-source convolutional neural networks (CNN) platform for research in medical image analysis and image-guided therapy. NiftyNet's modular structure is designed for sharing networks and pre-trained models.| classification, segmentation| 
 |[DLTK](https://github.com/DLTK/DLTK) | 1.1k | Deep Learning Toolkit (DLTK) for Medical Imaging <br> DLTK is a neural networks toolkit written in python, on top of TensorFlow. It is developed to enable fast prototyping with a low entry threshold and ensure reproducibility in image analysis applications, with a particular focus on medical imaging. Its goal is to provide the community with state of the art methods and models and to accelerate research in this exciting field. | classification, segmentation, super-resolution, regression |
 |[CNN 3D Images using Tensorflow](https://github.com/jibikbam/CNN-3D-images-Tensorflow) | 184 | MRI classification task using CNN (Convolutional Neural Network) | classification |
