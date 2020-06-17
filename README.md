@@ -1,7 +1,9 @@
 # mri-deep-learning-tools
-Resurces for MRI images processing and deep learning in 3D
+Open-source libraries for MRI images processing and deep learning:
 
-| Project Name | Stars | Description | Scenario |
+# Pytorch
+
+| Project Name | # stars | Description | Scenario |
 | ------- | ------ | ------ | ------ |
 | [MONAI](https://github.com/Project-MONAI/MONAI) | 989 | Medical Open Network for AI <br> MONAI is a PyTorch-based, open-source framework for deep learning in healthcare imaging, part of PyTorch Ecosystem.| preprocessing, classification, segmentation |
 | [SegNet](https://github.com/alexgkendall/caffe-segnet) | 988 | SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation Vijay Badrinarayanan, Alex Kendall and Roberto Cipolla, PAMI 2017 [http://arxiv.org/abs/1511.00561] | segmentation |
@@ -21,8 +23,8 @@ Resurces for MRI images processing and deep learning in 3D
 | [3D-UNet-PyTorch-Implementation](https://github.com/JielongZ/3D-UNet-PyTorch-Implementation) | 17 | -the implementation of 3D UNet Proposed by Özgün Çiçek et al.,<br>Preprint:[3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation.](https://arxiv.org/abs/1606.06650)| segmentation |
 
 
-# Tenserflow
-| Project Name | Description | Task |
+# Tensorflow
+| Project Name | # stars | description |
 | ------- | ------ | ------ |
 | [NiftyNet](https://github.com/NifTK/NiftyNet) | 1.2k | NiftyNet is a TensorFlow-based open-source convolutional neural networks (CNN) platform for research in medical image analysis and image-guided therapy. NiftyNet's modular structure is designed for sharing networks and pre-trained models.| classification, segmentation| 
 |[DLTK](https://github.com/DLTK/DLTK) | 1.1k | Deep Learning Toolkit (DLTK) for Medical Imaging <br> DLTK is a neural networks toolkit written in python, on top of TensorFlow. It is developed to enable fast prototyping with a low entry threshold and ensure reproducibility in image analysis applications, with a particular focus on medical imaging. Its goal is to provide the community with state of the art methods and models and to accelerate research in this exciting field. | classification, segmentation, super-resolution, regression |
