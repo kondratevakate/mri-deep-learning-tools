@@ -23,7 +23,7 @@ Open-source libraries for MRI images processing and deep learning. `monai`,`torc
 | [3D-UNet-PyTorch-Implementation](https://github.com/JielongZ/3D-UNet-PyTorch-Implementation) | 57 | The implementation of 3D UNet Proposed by Özgün Çiçek et al.,<br>Preprint:[3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation.](https://arxiv.org/abs/1606.06650)| segmentation |
 | [NiftyTorch](https://github.com/NiftyTorch/NiftyTorch.v.0.1) | 29 | A Python API for deploying deep neural networks for Neuroimaging research | classification, segmentation |
 | [DeepPipe](https://github.com/neuro-ml/deep_pipe) | 29 | Manipulation with medical images - parallel model training, model optimisation and utils | model training |
-| [BraTS-Toolkit](https://github.com/neuronflow/BraTS-Toolkit) | 17 | Docker images for best performing BRATS tumor segmentation solutions | training |
+| [BraTS-Toolkit](https://github.com/neuronflow/BraTS-Toolkit) | 17 | Docker images for best performing BRATS tumor segmentation solutions | segmentation |
 
 
 
