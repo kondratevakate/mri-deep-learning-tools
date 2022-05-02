@@ -1,5 +1,7 @@
 # mri-deep-learning-tools
-Open-source libraries for MRI images processing and deep learning. `monai`,`torchio`, `medicalzooputorch`, `transunet` virused in 2020. Last update - September 2021:
+Open-source libraries for MRI images processing and deep learning. 
+Updates in 2020: `monai`,`torchio`, `medicalzooputorch`, `transunet` virused.
+Updates in 2021:  `torchio` wrote an adds-in for `monai`. There is **super-usefull** tutorails from `MONAI` and `NVIDIA` for almost all task, that you need in MRI imaging in 2D and 3D. ![Check this out](https://github.com/Project-MONAI/tutorials) for `pytorch` and `tensorflow`. Also check ![this](https://catalog.ngc.nvidia.com/orgs/nvidia/resources/nnunet_for_pytorch) catalog for conteinerized solutions. `DALI` augmentations just saving lots of time!
 
 ## Pytorch
 
