@@ -1,13 +1,19 @@
 # mri-deep-learning-tools
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![License](https://img.shields.io/badge/license-CC--BY--4.0-blue)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 > Curated list of open-source deep learning tools for MRI and neuroimaging.
 
 ## What's New (2024-2026)
 
-- **Brain Foundation Models**: BrainLM (6700h fMRI), BrainSegFounder, BrainMorph
+- **BrainIAC** (Nature Neuroscience 2026): Foundation model trained on 48k brain MRIs
+- **MRI-CORE** (2025): Foundation model, 6.9M MRI slices, DINOv2+SAM
 - **MedSAM2** (ICLR 2025): Promptable 3D segmentation for medical images & videos
 - **nnWNet** (CVPR 2025): Transformer benchmark for biomedical segmentation
-- **ACTION Toolbox**: Pretrained models on 3800+ fMRI scans
+- **TotalSegmentator MRI**: 100+ structures, brain aneurysm detection
+- **BrainChop**: In-browser WebGPU brain segmentation
 
 ## Contents
 
@@ -19,6 +25,8 @@
 - [Reconstruction](#reconstruction)
 - [Diffusion & Tractography](#diffusion--tractography)
 - [Visualization & I/O](#visualization--io)
+- [Datasets & Benchmarks](#datasets--benchmarks)
+- [Tutorials & Learning](#tutorials--learning)
 - [Contributing](#contributing)
 
 ---
@@ -27,6 +35,8 @@
 
 | Tool | Stars | Description | Paper | Framework | Year |
 |------|-------|-------------|-------|-----------|------|
+| [BrainIAC](https://github.com/AIM-KannLab/BrainIAC) | ![Stars](https://img.shields.io/github/stars/AIM-KannLab/BrainIAC?style=flat-square) | Foundation model trained on 48k brain MRIs | [Nature Neuroscience](https://www.nature.com/articles/s41593-026-02202-6) | PyTorch | 2026 |
+| [MRI-CORE](https://github.com/mazurowski-lab/mri_foundation) | ![Stars](https://img.shields.io/github/stars/mazurowski-lab/mri_foundation?style=flat-square) | Foundation model, 6.9M MRI slices, DINOv2+SAM | [arXiv](https://arxiv.org/abs/2506.12186) | PyTorch | 2025 |
 | [fmri-fm](https://github.com/MedARC-AI/fmri-fm) | ![Stars](https://img.shields.io/github/stars/MedARC-AI/fmri-fm?style=flat-square) | MedARC fMRI foundation model | - | PyTorch | 2024 |
 | [BrainSegFounder](https://github.com/lab-smile/BrainSegFounder) | ![Stars](https://img.shields.io/github/stars/lab-smile/BrainSegFounder?style=flat-square) | Brain segmentation foundation model | - | PyTorch | 2024 |
 | [BrainMorph](https://github.com/alanqrwang/brainmorph) | ![Stars](https://img.shields.io/github/stars/alanqrwang/brainmorph?style=flat-square) | Foundational keypoint model for brain MRI registration | - | PyTorch | 2024 |
@@ -76,6 +86,8 @@ Essential tools for MRI deep learning workflows.
 
 | Tool | Stars | Description | Paper | Framework | Year |
 |------|-------|-------------|-------|-----------|------|
+| [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) | ![Stars](https://img.shields.io/github/stars/wasserth/TotalSegmentator?style=flat-square) | 100+ structures in CT/MRI, brain aneurysm TOF | [Radiology AI](https://pubs.rsna.org/doi/full/10.1148/ryai.230024) | PyTorch | 2023 |
+| [BrainChop](https://github.com/neuroneural/brainchop) | ![Stars](https://img.shields.io/github/stars/neuroneural/brainchop?style=flat-square) | In-browser 3D MRI segmentation, WebGPU | [JOSS](https://joss.theoj.org/papers/10.21105/joss.05098) | JavaScript | 2023 |
 | [TransUNet](https://github.com/Beckschen/TransUNet) | ![Stars](https://img.shields.io/github/stars/Beckschen/TransUNet?style=flat-square) | Transformers (ViT) for medical image segmentation | [arXiv](https://arxiv.org/abs/2102.04306) | PyTorch | 2021 |
 | [MEDICAL ZOO](https://github.com/black0017/MedicalZooPytorch) | ![Stars](https://img.shields.io/github/stars/black0017/MedicalZooPytorch?style=flat-square) | 3D multi-modal medical image segmentation library | - | PyTorch | 2020 |
 | [BraTS-Toolkit](https://github.com/neuronflow/BraTS-Toolkit) | ![Stars](https://img.shields.io/github/stars/neuronflow/BraTS-Toolkit?style=flat-square) | Docker images for BraTS tumor segmentation | - | Docker | 2020 |
@@ -117,6 +129,38 @@ Essential tools for MRI deep learning workflows.
 |------|-------|-------------|-------|-----------|------|
 | [MNE-Python](https://github.com/mne-tools/mne-python) | ![Stars](https://img.shields.io/github/stars/mne-tools/mne-python?style=flat-square) | MEG and EEG data processing | [Docs](https://mne.tools/) | Python | 2013 |
 | [nipy](https://github.com/nipy/nipy) | ![Stars](https://img.shields.io/github/stars/nipy/nipy?style=flat-square) | Neuroimaging analysis in Python | [Docs](https://nipy.org/nipy/) | Python | 2009 |
+
+## Datasets & Benchmarks
+
+Essential datasets for training and evaluating neuroimaging models.
+
+| Dataset | Description | Access |
+|---------|-------------|--------|
+| [ADNI](https://adni.loni.usc.edu/) | Alzheimer's Disease Neuroimaging Initiative — longitudinal MRI, PET, biomarkers | Registration |
+| [HCP](https://www.humanconnectome.org/) | Human Connectome Project — high-resolution structural & functional MRI | Registration |
+| [UK Biobank](https://www.ukbiobank.ac.uk/) | 100k+ brain MRIs with genetic and health data | Application |
+| [OASIS](https://www.oasis-brains.org/) | Open Access Series of Imaging Studies — brain MRI across lifespan | Free |
+| [BraTS](https://www.synapse.org/brats) | Brain Tumor Segmentation Challenge datasets | Free |
+| [fastMRI](https://fastmri.org/) | MRI reconstruction benchmark — raw k-space data | Free |
+| [IXI](https://brain-development.org/ixi-dataset/) | 600 MR images from healthy subjects | Free |
+| [OpenNeuro](https://openneuro.org/) | 1000+ fMRI/EEG/MEG datasets in BIDS format | Free |
+| [ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/) | Autism Brain Imaging Data Exchange | Free |
+| [Calgary-Campinas](https://sites.google.com/view/calgary-campinas-dataset/) | Multi-vendor MRI for reconstruction | Free |
+
+## Tutorials & Learning
+
+Resources for getting started with neuroimaging deep learning.
+
+| Resource | Description | Level |
+|----------|-------------|-------|
+| [MONAI Tutorials](https://github.com/Project-MONAI/tutorials) | Official MONAI notebooks — segmentation, classification, detection | Beginner-Advanced |
+| [MONAI Bootcamp](https://github.com/Project-MONAI/monai-bootcamp) | Video course with hands-on exercises | Beginner |
+| [Neuromatch Academy](https://compneuro.neuromatch.io/) | Computational neuroscience course with Python | Beginner |
+| [Andy's Brain Book](https://andysbrainbook.readthedocs.io/) | fMRI analysis tutorials (FSL, SPM, FreeSurfer) | Beginner |
+| [nilearn Tutorials](https://nilearn.github.io/stable/auto_examples/) | Statistical learning on fMRI data | Intermediate |
+| [TorchIO Tutorials](https://torchio.readthedocs.io/tutorials/) | 3D medical image preprocessing | Beginner |
+| [nnU-Net Tutorials](https://github.com/MIC-DKFZ/nnUNet) | Self-configuring segmentation | Intermediate |
+| [fastMRI Tutorial](https://github.com/facebookresearch/fastMRI) | MRI reconstruction with deep learning | Advanced |
 
 ---
 
