@@ -146,6 +146,7 @@ Essential datasets for training and evaluating neuroimaging models.
 | [OpenNeuro](https://openneuro.org/) | 1000+ fMRI/EEG/MEG datasets in BIDS format | Free |
 | [ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/) | Autism Brain Imaging Data Exchange | Free |
 | [Calgary-Campinas](https://sites.google.com/view/calgary-campinas-dataset/) | Multi-vendor MRI for reconstruction | Free |
+| [BrainFMBench](https://github.com/epics-lab/BrainFMBench) | Living benchmark of frozen structural MRI foundation models vs FreeSurfer baselines on five Reproducible Brain Charts cohorts, with open model submissions and a public [leaderboard](https://www.epics-lab.ca/BrainFMBench/). [Paper](https://papers.miccai.org/miccai-2026-sat/paper/MedAGI_025.pdf) | Free |
 
 ## Tutorials & Learning
 
